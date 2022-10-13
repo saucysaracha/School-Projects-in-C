@@ -1,0 +1,5 @@
+﻿  hw7_8.c
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw7_8\hw7_8\hw7_8.c(368,11): warning C4047: 'return': 'studentList *' differs in levels of indirection from 'int'
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw7_8\hw7_8\hw7_8.c(439,13): warning C4047: '==': 'studentList *' differs in levels of indirection from 'int'
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw7_8\hw7_8\hw7_8.c(431,17): warning C4101: 'tempCourse': unreferenced local variable
+  hw7_8.vcxproj -> C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw7_8\x64\Debug\hw7_8.exe

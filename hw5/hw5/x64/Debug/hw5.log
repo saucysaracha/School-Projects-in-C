@@ -1,0 +1,7 @@
+﻿  hw06q1.c
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw5\hw5\hw06q1.c(146,11): warning C4047: 'return': 'instructorRecord *' differs in levels of indirection from 'int'
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw5\hw5\hw06q1.c(159,38): warning C4047: '!=': 'instructorRecord *' differs in levels of indirection from 'int'
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw5\hw5\hw06q1.c(292,15): warning C4101: 'i': unreferenced local variable
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw5\hw5\hw06q1.c(374,13): warning C4047: '==': 'instructorRecord *' differs in levels of indirection from 'int'
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw5\hw5\hw06q1.c(224): warning C4715: 'add': not all control paths return a value
+  hw5.vcxproj -> C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw5\x64\Debug\hw5.exe
