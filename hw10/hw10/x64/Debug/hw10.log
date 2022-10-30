@@ -1,0 +1,16 @@
+﻿  car.cpp
+  Container.cpp
+  hw10.cpp
+  motorcycle.cpp
+  vehicle.cpp
+  Generating Code...
+hw10.obj : error LNK2005: "public: __cdecl Car::Car(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum vehicleType)" (??0Car@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4vehicleType@@@Z) already defined in car.obj
+hw10.obj : error LNK2005: "public: __cdecl Container::Container(void)" (??0Container@@QEAA@XZ) already defined in Container.obj
+hw10.obj : error LNK2005: "public: virtual void __cdecl Car::displayVehicle(void)" (?displayVehicle@Car@@UEAAXXZ) already defined in car.obj
+motorcycle.obj : error LNK2005: "public: __cdecl Motorcycle::Motorcycle(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum vehicleType)" (??0Motorcycle@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4vehicleType@@@Z) already defined in hw10.obj
+motorcycle.obj : error LNK2005: "public: virtual void __cdecl Motorcycle::displayVehicle(void)" (?displayVehicle@Motorcycle@@UEAAXXZ) already defined in hw10.obj
+vehicle.obj : error LNK2005: "public: __cdecl Vehicle::Vehicle(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum vehicleType)" (??0Vehicle@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4vehicleType@@@Z) already defined in hw10.obj
+vehicle.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Vehicle::getId(void)" (?getId@Vehicle@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in hw10.obj
+vehicle.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Vehicle::getOwner(void)" (?getOwner@Vehicle@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in hw10.obj
+vehicle.obj : error LNK2005: "public: enum vehicleType __cdecl Vehicle::getVehicleType(void)" (?getVehicleType@Vehicle@@QEAA?AW4vehicleType@@XZ) already defined in hw10.obj
+C:\Users\Sara\Documents\ASU\Sophomore\Semester 1\CSE240\School Projects in C\hw10\x64\Debug\hw10.exe : fatal error LNK1169: one or more multiply defined symbols found
